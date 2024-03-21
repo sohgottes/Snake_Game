@@ -1,0 +1,33 @@
+body{
+  height: 95vh;
+  width: 95vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:white;
+  color: rgb(36, 105, 168);
+}
+
+canvas {
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+#game-title {
+  font-family: 'Bangers', cursive; /* Usando a fonte Bangers */
+  font-size: 56px; /* Tamanho da fonte */
+  color: #50c8ff; /* Cor do texto */
+  text-align: center; /* Alinhamento centralizado */
+  margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+#score {
+  font-family: 'Arial', sans-serif; /* Escolha a fonte desejada */
+  font-size: 24px; /* Tamanho da fonte */
+  font-weight: bold; /* Texto em negrito */
+  color: #50c8ff; /* Cor vibrante */
+  text-align: center; /* Alinhamento centralizado */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para destacar */
+  margin-top: 10px; /* Espaçamento superior */
+}
